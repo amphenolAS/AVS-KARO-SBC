@@ -669,7 +669,7 @@ public class Qual_InitiationTest extends BaseClass{
 			assetDetailsPage.click_InitiateQualBtn();
 			SelectAVSPage = assetDetailsPage.StartQual_OKButton();
 			SelectAVSPage.enterTxt_IntoIpTxtBox(AVS_IP);
-			String IPtext = SelectAVSPage.getTxt_AVSIPBox();
+			String IPtext = SelectAVSPage.getTxt_AVSIPBox(); 
 			SelectAVSPage.click_AddBtn();
 			
 			//Verify selected AVS unit is highlighted
