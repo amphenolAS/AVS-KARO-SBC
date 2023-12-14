@@ -677,7 +677,7 @@ public class Qual_InitiationTest extends BaseClass{
 			
 			//click On Remove Button for required validation
 			Thread.sleep(3000);
-			SelectAVSPage.click_RemoveBtn();
+			SelectAVSPage.click_RemoveBtn(); 
 			
 			sa.assertFalse(SelectAVSPage.is_AVSUnitDispayed(IPtext), "Fail: AVS unit still visible in the list");
 			
